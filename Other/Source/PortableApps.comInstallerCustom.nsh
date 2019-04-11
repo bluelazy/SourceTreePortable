@@ -1,3 +1,4 @@
+
 !macro CustomCodePostInstall
 
 ; Prepare folder to extract with 7zip
@@ -18,3 +19,4 @@ ExecDOS::exec `xcopy "$INSTDIR\7zTemp\lib\net45" "$INSTDIR\App\SourceTree" /S /i
 RMDir /r "$INSTDIR\7zTemp"
 
 !macroend
+
